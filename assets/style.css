@@ -6,7 +6,7 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
-.top-header {
+header {
 	background-color: white;
 	position: sticky;
 	top:0;
@@ -18,7 +18,7 @@ body {
 	align-items: center;
 }
 
-.top-header .name {
+header .name {
 	font-size: 26px;
 }
 
@@ -190,7 +190,7 @@ body {
 	z-index: 1;
 }
 
-#contact {
+footer {
 	margin: auto;
 	background-color: #D8D3A8 ;
 	position: relative;
@@ -198,7 +198,7 @@ body {
 	padding-block: 100px;
 }
 
-#contact .container {
+footer .container {
 	display: flex;
 }
 .picture.right::before {
@@ -320,15 +320,15 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 650px) {
-	.top-header {
+	header {
 		flex-direction: column;
 		padding-inline: 0;
 	}
-	.top-header .nav, .top-header .nav ul {
+	header .nav, header .nav ul {
 		width: 100%;
 		padding: 0 0 0 0;
 	}
-	.top-header .nav li {
+	header .nav li {
 		flex: 1;
 		padding-block: 1em;
 		text-align: center;

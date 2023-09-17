@@ -11,9 +11,14 @@
       rel="stylesheet"
     />
     <meta charset="UTF-8" />
+    <!-- <script defer src="lightbox.js"></script> -->
 		<title>Nina Carducci Portfolio</title>
 		<meta name="description"
 		content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer." />
+    <meta property=”og:title” content=”Nina Carducci Portfolio” />
+    <meta property=”og:type” content=”Portfolio” />
+    <meta property=”og:image” content=https://antoninvorain.github.io/Nina/assets/images/nina.webp>
+    <meta property=”og:url” content=”https://ninacarducci.github.io” />
     <script src="./assets/bootstrap/bootstrap.bundle.js" defer></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -21,8 +26,8 @@
       crossorigin="anonymous"
 			
     ></script>
-    <script src="./assets/main.js"></script>
     <script src="./assets/maugallery.js" ></script>
+    <script src="./assets/scripts.js"></script>
   </head>
   <body>
     <div class="top-header">
@@ -140,6 +145,59 @@
     </div>
     <div id="gallery">
       <h2 class="title">Portfolio</h2>
+      <!-- <div class="lightbox">
+        <img
+            data-gallery-tag="Concert"
+            class="gallery-item"
+            src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
+            alt="discothèque rouge"
+          />
+          <img
+            data-gallery-tag="Entreprises"
+            class="gallery-item"
+            src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
+            alt="homme d'affaires"
+          />
+          <img
+            data-gallery-tag="Entreprises"
+            class="gallery-item"
+            src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"
+            alt="femme d'affaires"
+          />
+          <img
+            data-gallery-tag="Mariages"
+            class="gallery-item"
+            src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp"
+            alt="main dans la main"
+          />
+          <img
+            data-gallery-tag="Portrait"
+            class="gallery-item"
+            src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
+            alt="les yeux fermés"
+          />
+          <img
+            data-gallery-tag="Mariages"
+            class="gallery-item"
+            src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
+            alt="les mariés devant un palmier"
+          />
+          <img
+            data-gallery-tag="Portrait"
+            class="gallery-item"
+            src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
+            alt="femme derrière un grillage"
+          />
+          <img data-gallery-tag="Concert" class="gallery-item"
+          src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp"
+          alt="fête des couleurs">
+          <img
+            data-gallery-tag="Entreprises"
+            class="gallery-item"
+            src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
+            alt="femme devant un laptop"
+          />
+      </div> -->
       <div class="container py-3">
         <div class="gallery" style="display: none">
           <img
@@ -293,14 +351,5 @@
         </div>
       </div>
     </div>
-    <!-- <div class="slider">
-			<div class="img-box">
-				<img src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" class="slider-img">
-			</div>
-
-			<button class="btn" onclick="prev()">Prev</button>
-			<button class="btn" onclick="next()">Next</button>
-		</div>
-    <script src="./assets/scripts.js" ></script> -->
   </body>
 </html>
